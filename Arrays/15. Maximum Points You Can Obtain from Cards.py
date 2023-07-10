@@ -10,7 +10,7 @@ def maxScore(cardPoints: List[int], k: int) -> int:
         r += 1
     return res
 
-if __name__ == 'main':
+if __name__ == '__main__':
     cardPoints = [1,2,3,4,5,6,1]
     k = 3
     ans = maxScore(cardPoints,k)
