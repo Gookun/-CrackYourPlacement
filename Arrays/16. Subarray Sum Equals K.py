@@ -7,7 +7,6 @@ def subarraySum(nums: List[int], k: int) -> int:
     for n in nums:
         curSum += n
         diff = curSum - k
-        #adding the sub array in the res and removing from the map.
         res += PrefixSums.get(diff, 0)
         PrefixSums[curSum] = 1 + PrefixSums.get(curSum, 0)
     return res
