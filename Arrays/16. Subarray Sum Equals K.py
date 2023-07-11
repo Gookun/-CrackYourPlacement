@@ -17,4 +17,4 @@ if __name__ == '__main__':
     nums = [3,1,2,4]
     k = 6
     ans = subarraySum(nums,k)
-    print("The number of subarrays is:", ans)
+    print("The number of subarrays is:", ans)       
