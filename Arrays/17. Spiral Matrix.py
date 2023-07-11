@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         left, right = 0, len(matrix[0]) #right is no. of columns + 1
